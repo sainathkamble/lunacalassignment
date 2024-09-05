@@ -9,12 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
-  },
   "dependencies": {
-    "@mui/material": "^6.0.2",
     "gsap": "^3.12.5",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",

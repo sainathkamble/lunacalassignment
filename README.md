@@ -1,8 +1,13 @@
-# React + Vite
+<h1>Lunacal Frontend Internship Assignment</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>This is assignment for frontend developer role at Lunacal</p>
 
-Currently, two official plugins are available:
+<p>There are two main components</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>Tabs: There three tabs which shows data related to that tab.</p>
+
+<p>Gallery: Its image gallery you add images throug add inmage button from your computer which then diplays image in the queue.</p>
+
+<p>This UI is made pixel perfect fron given figma file and it's responsive to all screens expext phones.</p>
+
+<p>Thanks to Lunacal team for this oppourtunity looking forward to further hiring round.</p>

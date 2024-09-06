@@ -1,14 +1,17 @@
 import React, { useState, useRef } from 'react'
 import QuestionMark from "../assets/questionmark.svg";
 import Grid from "../assets/grid.svg";
-import GalleryImage from "../assets/image.jpeg";
+import GalleryImage1 from "../assets/image1.jpeg";
+import GalleryImage2 from "../assets/image2.jpeg";
+import GalleryImage3 from "../assets/image3.jpeg";
+import GalleryImage4 from "../assets/image4.jpeg";
 import { FaArrowLeft, FaArrowRight, FaPlus } from "react-icons/fa6";
 
 export const Gallery = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     
     const [images, setImages] = useState([
-        GalleryImage, GalleryImage, GalleryImage, GalleryImage, GalleryImage,
+        GalleryImage1, GalleryImage2, GalleryImage3, GalleryImage4,
     ]);
 
     const fileInputRef = useRef(null);
@@ -88,7 +91,7 @@ export const Gallery = () => {
                     {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
                         <div key={index} className="relative">
                             <img src={image} className="h-[150px] w-[170px] rounded-2xl transition-transform duration-500 
-                                transform hover:scale-110 hover:-rotate-[2deg] hover:opacity-100 opacity-25 "
+                                transform hover:scale-110 hover:-rotate-[2deg] hover:opacity-100 opacity-50"
                             />
                         </div>
                     ))}
